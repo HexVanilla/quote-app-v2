@@ -1,0 +1,39 @@
+.quote {
+  width: 100%;
+}
+.input-container {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 0.1rem;
+}
+
+input {
+  padding: 0.1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.textarea-container {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+}
